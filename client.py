@@ -3,7 +3,7 @@ import os
 import subprocess
 
 s = socket.socket()
-host = '10.9.119.207' # this may change on your system, check and update it .
+host = 'drivegal.pagekite.me' # this may change on your system, check and update it .
 port = 9999
 
 s.connect((host,port))

